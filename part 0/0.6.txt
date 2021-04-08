@@ -1,0 +1,17 @@
+title Ex.0.6
+
+note over browser:
+when the user creates a new note using 
+the single page version of the app.
+end note
+
+browser->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {"message":"note created"}
+
+
+
+
+
+
+
+
